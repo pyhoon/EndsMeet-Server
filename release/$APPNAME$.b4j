@@ -1,0 +1,36 @@
+﻿AppType=StandardJava
+Build1=Default,com.example
+File1=config.example
+File2=LICENSE
+FileGroup1=Default Group
+FileGroup2=Default Group
+Group=App
+Library1=endsmeet
+Library2=jcore
+Library3=minihtml
+Library4=webapiutils
+Module1=HttpsFilter
+Module2=Index
+NumberOfFiles=2
+NumberOfLibraries=4
+NumberOfModules=2
+Version=10.2
+@EndOfDesignText@
+'Non-UI application (console / server application)
+#Region Project Attributes 
+	#CommandLineArgs:
+	#MergeLibraries: True 
+#End Region
+
+Sub Process_Globals
+    Public app As EndsMeet
+End Sub
+
+' <link>Open in browser|http://127.0.0.1:8080</link>
+Sub AppStart (Args() As String)
+    app.Initialize
+    app.Route("", "Index")
+    app.Route("/modal", "Index")
+    app.Start
+    StartMessageLoop
+End Sub
