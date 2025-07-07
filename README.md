@@ -1,4 +1,6 @@
 # EndsMeet-Server
+Version: 1.00
+
 Project template for EndsMeet server library.
 
 It depends on following libraries:
