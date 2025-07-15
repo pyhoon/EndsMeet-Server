@@ -8,7 +8,7 @@ Group=App
 Library1=jcore
 Library2=minihtml
 Library3=webapiutils
-Library4=endsmeet.1.00
+Library4=endsmeet
 Module1=HttpsFilter
 Module2=Index
 NumberOfFiles=2
@@ -21,7 +21,7 @@ Version=10.3
 	#CommandLineArgs:
 	#MergeLibraries: True
 #End Region
-' LibDownloader: ide://run?file=%JAVABIN%\java.exe&Args=-jar&Args=%ADDITIONAL%\..\B4X\libget-non-ui.jar&Args=%PROJECT%&Args=true
+' LibDownloader: ide://run?file=%JAVABIN%\java.exe&Args=-jar&Args=%ADDITIONAL%\..\B4X\libget-non-ui.jar&Args=%PROJECT%
 
 Sub Process_Globals
     Public app As EndsMeet
@@ -31,7 +31,7 @@ End Sub
 Sub AppStart (Args() As String)
     app.Initialize
     app.Get("", "Index")
-    app.Get("/modal", "Index")
+    app.Post("/modal", "Index")
     app.Start
     StartMessageLoop
 End Sub
