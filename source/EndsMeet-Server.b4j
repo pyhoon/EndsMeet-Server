@@ -18,8 +18,9 @@ Version=10.3
 	#CommandLineArgs:
 	#MergeLibraries: True
 #End Region
-#Macro: Title, GetLibraries, ide://run?file=%JAVABIN%\java.exe&args=-jar&args=%ADDITIONAL%\..\B4X\libget.jar&args=%PROJECT%&args=false
-
+#Macro: Title, Create Template, ide://run?file=%JAVABIN%\jar.exe&WorkingDirectory=..&args=-cMf&args=%PROJECT%\..\release\EndsMeet Server (1.10).b4xtemplate&args=Files&args=$APPNAME$.*&args=*.bas&args=libs.json&args=..\LICENSE
+#Macro: Title, Release folder, ide://run?file=%WINDIR%\SysWOW64\explorer.exe&args=%PROJECT%\..\release
+#Macro: Title, Copy to AddLibs, ide://run?file=%COMSPEC%&args=/c&args=copy&args=%PROJECT%\..\release\*.b4xtemplate&args=%ADDITIONAL%
 Sub Process_Globals
     Public App As EndsMeet
 End Sub
