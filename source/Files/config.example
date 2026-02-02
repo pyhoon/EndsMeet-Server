@@ -1,5 +1,5 @@
 # Product:    EndsMeet Server
-# Version:    1.10
+# Version:    1.20
 # License:    MIT License
 # Developer:  Poon Yip Hoon (Aeric)
 # Donation:   https://paypal.me/aeric80/
@@ -21,4 +21,4 @@ SSLPort=0
 #HOME_TITLE=ENDSMEET SERVER
 #APP_TITLE=EndsMeet
 #APP_TRADEMARK=ENDSMEET
-#APP_COPYRIGHT=Copyright Computerise System Solutions 2025
+#APP_COPYRIGHT=Copyright Computerise System Solutions 2026
