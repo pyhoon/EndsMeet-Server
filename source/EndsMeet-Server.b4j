@@ -5,7 +5,7 @@ FileGroup1=Default Group
 Group=App
 Library1=endsmeet
 Library2=jcore
-Library3=minihtml
+Library3=minihtml2
 Module1=HttpsFilter
 Module2=Index
 NumberOfFiles=1
@@ -18,7 +18,7 @@ Version=10.3
 	#CommandLineArgs:
 	#MergeLibraries: True
 #End Region
-#Macro: Title, Create Template, ide://run?file=%JAVABIN%\jar.exe&WorkingDirectory=..&args=-cMf&args=%PROJECT%\..\release\EndsMeet Server (1.10).b4xtemplate&args=Files&args=$APPNAME$.*&args=*.bas&args=libs.json&args=..\LICENSE
+#Macro: Title, Create Template, ide://run?file=%JAVABIN%\jar.exe&WorkingDirectory=..&args=-cMf&args=%PROJECT%\..\release\EndsMeet Server (1.20).b4xtemplate&args=Files&args=$APPNAME$.*&args=*.bas&args=libs.json&args=..\LICENSE
 #Macro: Title, Release folder, ide://run?file=%WINDIR%\SysWOW64\explorer.exe&args=%PROJECT%\..\release
 #Macro: Title, Copy to AddLibs, ide://run?file=%COMSPEC%&args=/c&args=copy&args=%PROJECT%\..\release\*.b4xtemplate&args=%ADDITIONAL%
 Sub Process_Globals
