@@ -5,26 +5,30 @@ FileGroup1=Default Group
 Group=App
 Library1=endsmeet
 Library2=jcore
-Library3=minihtml2
+Library3=minihtml
 Module1=HttpsFilter
 Module2=Index
 NumberOfFiles=1
 NumberOfLibraries=3
 NumberOfModules=2
-Version=10.3
+Version=10.45
 @EndOfDesignText@
-'Non-UI application (console / server application)
-#Region Project Attributes 
-	#CommandLineArgs:
-	#MergeLibraries: True
+#Region Project Attributes
+' Product: EndsMeet Server
+' Version: 1.30
+' License: MIT License
+' Developer: Poon Yip Hoon (Aeric)
+#CommandLineArgs:
+#MergeLibraries: True
 #End Region
-#Macro: Title, GetLibraries, ide://run?file=%JAVABIN%\java.exe&args=-jar&args=%ADDITIONAL%\..\B4X\libget.jar&args=%PROJECT%&args=false
-
+#Macro: Title, GetLibraries, ide://run?file=%ADDITIONAL%\..\B4X\libget.jar&args=%PROJECT%&librariesrefresh=True
 Sub Process_Globals
     Public App As EndsMeet
+	Public count As Int
 End Sub
 
 ' <link>Open in browser|http://127.0.0.1:8080</link>
+' <link>Donate|https://paypal.me/aeric80/</link> | <link>Forum|https://www.b4x.com/android/forum/threads/project-template-endsmeet-server.158071/</link> | <link>GitHub|https://github.com/pyhoon/EndsMeet-Server</link>
 Sub AppStart (Args() As String)
     App.Initialize
     App.Get("", "Index")

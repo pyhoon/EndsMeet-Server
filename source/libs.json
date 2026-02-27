@@ -1,4 +1,5 @@
 {
+    "Version": "1.30",
     "Libraries": [
         {
             "Name": "EndsMeet.b4xlib",
@@ -7,10 +8,10 @@
             "Link": "https://github.com/pyhoon/EndsMeet/releases/download/v1.80/EndsMeet.b4xlib"
         },
         {
-            "Name": "MiniHtml2.b4xlib",
+            "Name": "MiniHtml.b4xlib",
             "Platform": "B4X",
             "Version": 2.00,
-            "Link": "https://github.com/pyhoon/MiniHtml2-B4X/releases/download/v2.00/MiniHtml2.b4xlib"
+            "Link": "https://github.com/pyhoon/MiniHtml2-B4X/releases/download/v2.00/MiniHtml.b4xlib"
         }
     ]
 }
