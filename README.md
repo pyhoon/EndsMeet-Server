@@ -8,4 +8,4 @@ It depends on following libraries:
 - [MiniHtml2](https://github.com/pyhoon/MiniHtml2-B4X)
 
 ## Preview
-![EndsMeet Server](../main/EndsMeet%20Server.png)
+![EndsMeet Server](EndsMeet%20Server.png)
