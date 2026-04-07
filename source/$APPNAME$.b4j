@@ -11,17 +11,18 @@ Module2=Index
 NumberOfFiles=1
 NumberOfLibraries=3
 NumberOfModules=2
-Version=10.45
+Version=10.5
 @EndOfDesignText@
 #Region Project Attributes
 ' Product: EndsMeet Server
-' Version: 1.30
+' Version: 1.40
 ' License: MIT License
 ' Developer: Poon Yip Hoon (Aeric)
 #CommandLineArgs:
 #MergeLibraries: True
-#End Region
 #Macro: Title, GetLibraries, ide://run?file=%ADDITIONAL%\..\B4X\libget.jar&args=%PROJECT%&librariesrefresh=True
+#End Region
+
 Sub Process_Globals
     Public App As EndsMeet
 	Public count As Int

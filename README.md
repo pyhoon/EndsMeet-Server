@@ -1,5 +1,5 @@
 # EndsMeet-Server
-Version: 1.30
+Version: 1.40
 
 Project template for EndsMeet server library.
 
