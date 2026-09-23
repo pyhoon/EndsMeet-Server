@@ -11,11 +11,11 @@ Module2=Index
 NumberOfFiles=1
 NumberOfLibraries=3
 NumberOfModules=2
-Version=10.5
+Version=10.7
 @EndOfDesignText@
 #Region Project Attributes
 ' Product: EndsMeet Server
-' Version: 1.40
+' Version: 1.50
 ' License: MIT License
 ' Developer: Poon Yip Hoon (Aeric)
 #CommandLineArgs:
